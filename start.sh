@@ -1,5 +1,5 @@
 source ~/.bashrc
-sudo apt-get install -y python-pip
+sudo apt-get install -y python3-pip
 cd ROS_Workspace
 catkin_make
 source devel/setup.bash
