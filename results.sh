@@ -1,0 +1,2 @@
+cd Benchmark/f1tenth_benchmarks/benchmark_results
+python3 generate_benchmark_results.py

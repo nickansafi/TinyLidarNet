@@ -4,7 +4,7 @@ cd ROS_Workspace
 catkin_make
 source devel/setup.bash
 cd ..
-pip install rospy rosbag scikit-learn matplotlib
+pip install rospy rosbag scikit-learn matplotlib torch tensorflow pyglet
 cd Benchmark
 pip install -r requirements.txt
 pip install -e .
