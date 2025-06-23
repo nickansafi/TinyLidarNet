@@ -3,6 +3,7 @@ from matplotlib import pyplot as plt
 import csv, yaml
 from PIL import Image
 from matplotlib.collections import LineCollection
+import os
 
 class MapData:
     def __init__(self, map_name):

@@ -2,6 +2,7 @@
 from pyglet.gl import GL_POINTS
 import torch
 import tensorflow
+import os
 from f1tenth_benchmarks.classic_racing.RaceTrackGenerator import RaceTrackGenerator, load_parameter_file_with_extras
 from f1tenth_benchmarks.classic_racing.GlobalPurePursuit import GlobalPurePursuit
 from f1tenth_benchmarks.classic_racing.GlobalMPCC import GlobalMPCC
