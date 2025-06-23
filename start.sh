@@ -1,4 +1,4 @@
-source ~/.bashrc
+source /opt/ros/noetic/setup.bash
 sudo apt-get install -y python3-pip
 cd ROS_Workspace
 catkin_make
