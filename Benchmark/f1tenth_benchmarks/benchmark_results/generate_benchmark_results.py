@@ -2,6 +2,7 @@
 from pyglet.gl import GL_POINTS
 import torch
 import tensorflow
+import os
 from f1tenth_benchmarks.classic_racing.RaceTrackGenerator import RaceTrackGenerator, load_parameter_file_with_extras
 from f1tenth_benchmarks.classic_racing.GlobalPurePursuit import GlobalPurePursuit
 from f1tenth_benchmarks.classic_racing.GlobalMPCC import GlobalMPCC
@@ -79,7 +80,7 @@ def tinylidar_drl():
 
 def end_to_end_il():
     test_id = "benchmark_e2e_il"
-    planner = EndToEnd(test_id,4, '/home/m810z573/Downloads/f1tenth_benchmarks/f1tenth_benchmarks/zarrar/f1_tenth_model_diff_MLP_S_noquantized.tflite')
+    planner = EndToEnd(test_id,4, os.getcwd+'/f1tenth_benchmarks/zarrar/f1_tenth_model_diff_MLP_S_noquantized.tflite')
     test_mapless_all_maps(planner, test_id, number_of_laps=NUMBER_OF_LAPS)
 
     plot_trajectory_analysis(planner.name, test_id)
