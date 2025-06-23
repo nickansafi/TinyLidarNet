@@ -12,4 +12,3 @@ git submodule init
 git submodule update
 cd trajectory_planning_helpers
 pip install -e .
-export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1
