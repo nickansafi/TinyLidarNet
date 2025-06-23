@@ -15,7 +15,7 @@ class MapData:
         self.map_width = None
 
         try:
-            self.path = "/home/m810z573/Downloads/f1tenth_benchmarks/maps/"
+            self.path = os.getcwd()[0:-len(os.getcwd().lower().split("tinylidarnet")[-1])]+"/Benchmark/maps/"
             self.load_map_img()
         except:
             self.path = "../maps/"
