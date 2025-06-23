@@ -1,3 +1,5 @@
+source ~/.bashrc
+sudo apt-get install -y python-pip
 cd ROS_Workspace
 catkin_make
 source devel/setup.bash
