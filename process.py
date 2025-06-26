@@ -1,6 +1,6 @@
 with open("results.txt", "r") as results:
     result = [i.strip().split(" ") for i in results.read().split("\n") if len(i) > 1 and i[0] in map(str, range(10))]
-tests = ["MLP256L", "MLP256M", "MLP256S", "TinyLidarNetL", "TinyLidarNetM", "TinyLidarNetS"]
+tests = ["MLP256S", "MLP256M", "MLP256L", "TinyLidarNetS", "TinyLidarNetM", "TinyLidarNetL"]
 tracks = ["GYM", "AUS", "MOS", "SPL"]
 lists = []
 for i in range(len(result)):
@@ -19,4 +19,4 @@ for i in range(len(lists)):
         times.append(sum(lists[i][1])/len(lists[i][1]))
     accuracies.append(sum(lists[i][0])/len(lists[i][0]))
 for i in range(len(times)):
-    print(tests[i//4]+" on "+tracks[i%4]+": Time = "+str(times[i])+" and Accuracy = "+str(accuracies[i]))
+    print(tests[i//4]+" on "+tracks[i%4]+": Time = "+str(times[i])[0:5]+"\tand Accuracy = "+str(accuracies[i])[0:5])
