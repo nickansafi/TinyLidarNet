@@ -8,7 +8,7 @@ for i in range(len(result)):
         lists.append([[],[]])
     if result[i][3] in ["LAP", "COLLISION:", "TIMEOUT:"]:
         lists[-1][0].append(float(result[i][-1]))
-    if result[i][3] in ["LAP", "TIMEOUT:"]:
+    if result[i][3] in ["LAP"]:
         lists[-1][1].append(float(result[i][-3][0:-1]))
 accuracies = []
 times = []
