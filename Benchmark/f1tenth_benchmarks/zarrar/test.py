@@ -44,10 +44,10 @@ class Test(BasePlanner):
     
     def plan(self, obs):
         if len(self.scans) == 0:
-            self.scans = [obs['scan'] for i in range(5)]
+            self.scans = [obs['scan'][::2] for i in range(5)]
         else:
             self.scans.pop(0)
-            self.scans.append(obs['scan'])
+            self.scans.append(obs['scan'][::2])
         scans = self.scans
 
         noise = np.random.normal(0, 0.5, scans[0].shape)
@@ -58,7 +58,7 @@ class Test(BasePlanner):
 
         scans = np.expand_dims(scans[-1], axis=-1).astype(np.float32)
         scans = np.expand_dims(scans[-1], axis=0)
-        self.interpreter.set_tensor(self.input_index, scans)
+        self.interpreter.set_tensor(self.input_index, np.repeat(scans, 2, axis=3))
         
         start_time = time.time()
         self.interpreter.invoke()
