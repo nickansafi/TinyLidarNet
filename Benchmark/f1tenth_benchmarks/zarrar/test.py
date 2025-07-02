@@ -19,6 +19,8 @@ class Test(BasePlanner):
 
         self.temp_scan = []
 
+        self.scans = []
+
     def linear_map(self, x, x_min, x_max, y_min, y_max):
         return (x - x_min) / (x_max - x_min) * (y_max - y_min) + y_min
 
@@ -41,16 +43,21 @@ class Test(BasePlanner):
 
     
     def plan(self, obs):
-        scans = obs['scan']
+        if len(self.scans) == 0:
+            self.scans = [obs['scan'] for i in range(5)]
+        else:
+            self.scans.pop(0)
+            self.scans.append(obs['scan'])
+        scans = self.scans
 
-        noise = np.random.normal(0, 0.5, scans.shape)
-        scans = scans + noise
+        noise = np.random.normal(0, 0.5, scans[0].shape)
+        scans[-1] = scans[-1] + noise
         
-        scans = np.array(scans)
-        scans[scans>10] = 10
+        scans[-1] = np.array(scans[-1])
+        scans[-1][scans[1]>10] = 10
 
-        scans = np.expand_dims(scans, axis=-1).astype(np.float32)
-        scans = np.expand_dims(scans, axis=0)
+        scans = np.expand_dims(scans[-1], axis=-1).astype(np.float32)
+        scans = np.expand_dims(scans[-1], axis=0)
         self.interpreter.set_tensor(self.input_index, scans)
         
         start_time = time.time()
