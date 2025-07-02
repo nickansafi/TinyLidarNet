@@ -122,7 +122,6 @@ if __name__ == '__main__':
     # --- Load & concatenate all bags ---
     all_lidar, all_servo, all_speed, all_ts = [], [], [], []
     for pth in bag_paths:
-        print(read_ros2_bag(pth))
         l, s, sp, ts = read_ros2_bag(pth)
         print(f'Loaded {len(l)} scans from {pth}')
         all_lidar.extend(l)
