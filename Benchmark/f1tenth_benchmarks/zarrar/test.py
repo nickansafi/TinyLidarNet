@@ -6,11 +6,11 @@ import tensorflow as tf
 
 class Test(BasePlanner):
     def __init__(self, test_id, skip_n, pre, model_path):
-        super().__init__("TinyLidarNet", test_id)
+        super().__init__("Test", test_id)
         self.pre = pre
         self.skip_n = skip_n
         self.model_path = model_path
-        self.name = 'TinyLidarNet'
+        self.name = 'Test'
         self.interpreter = tf.lite.Interpreter(model_path=model_path)
         self.interpreter.allocate_tensors()
         self.input_index = self.interpreter.get_input_details()[0]["index"]
@@ -58,6 +58,7 @@ class Test(BasePlanner):
 
         scans = np.expand_dims(scans, axis=-1).astype(np.float32)
         scans = np.expand_dims(scans, axis=0)
+
         self.interpreter.set_tensor(self.input_index, np.repeat(scans, 2, axis=3))
         
         start_time = time.time()
