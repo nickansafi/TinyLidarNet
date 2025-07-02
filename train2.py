@@ -181,7 +181,7 @@ if __name__ == '__main__':
     tflite_model = converter.convert()
     os.makedirs('Models', exist_ok=True)
     # with open('Models/RNN_Attn_Controller.tflite', 'wb') as f:
-    with open('Models/test.tflite', 'wb') as f:
+    with open('./Benchmark/f1tenth_benchmarks/zarrar/test.tflite', 'wb') as f:
         f.write(tflite_model)
     print('TFLite model saved.')
 
