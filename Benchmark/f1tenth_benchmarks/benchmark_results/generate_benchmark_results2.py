@@ -109,6 +109,13 @@ def end_to_end_il_128():
 
     plot_trajectory_analysis(planner.name, test_id)
 
+def test():
+    test_id = "test"
+    planner = Test(test_id,4, 1,os.getcwd()[0:-len(os.getcwd().lower().split("tinylidarnet")[-1])]+'/Benchmark/f1tenth_benchmarks/zarrar/f1_tenth_model_smaller_mean_noquantized.tflite')
+    test_mapless_all_maps(planner, test_id, number_of_laps=NUMBER_OF_LAPS)
+
+    plot_trajectory_analysis(planner.name, test_id)
+
 def tinylidar_il_mean():
     test_id = "benchmark_tiny_il_mean"
     planner = TinyLidarNet(test_id,4, 1,os.getcwd()[0:-len(os.getcwd().lower().split("tinylidarnet")[-1])]+'/Benchmark/f1tenth_benchmarks/zarrar/f1_tenth_model_smaller_mean_noquantized.tflite')
