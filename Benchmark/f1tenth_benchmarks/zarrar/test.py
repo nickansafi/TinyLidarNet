@@ -10,7 +10,7 @@ class Test(BasePlanner):
         self.pre = pre
         self.skip_n = skip_n
         self.model_path = model_path
-        self.name = 'Test'
+        self.name = 'TinyLidarNet'
         self.interpreter = tf.lite.Interpreter(model_path=model_path)
         self.interpreter.allocate_tensors()
         self.input_index = self.interpreter.get_input_details()[0]["index"]
