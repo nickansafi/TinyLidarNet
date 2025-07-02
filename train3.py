@@ -83,6 +83,10 @@ def create_lidar_sequences(lidar_data, servo_data, speed_data, timestamps, seque
 
     return np.array(X), np.array(y)
 
+class MyLayer(tf.keras.Layer):
+    def call(self, x):
+        return tf.reduce_mean(x, axis=1)
+
 #========================================================
 # Model definition (RNN + Attention)
 #========================================================
@@ -97,7 +101,7 @@ def build_spatiotemporal_model(seq_len, num_ranges):
     k = Dense(64)(lstm_out)
     v = Dense(64)(lstm_out)
     attn = Attention()([q, v, k])
-    context = tf.reduce_mean(attn, axis=1)
+    context = MyLayer()(attn)
     out = Dense(2, activation='tanh', name='controls')(context)
     return Model(inp, out, name='RNN_Attention_Controller')
 
