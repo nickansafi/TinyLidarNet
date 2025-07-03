@@ -50,18 +50,16 @@ class Test(BasePlanner):
             self.scans.append(obs['scan'][::2])
         scans = self.scans
 
-        times = [[0.0125*i]*len(obs['scan'][::2]) for i in range(5)]
-
         noise = np.random.normal(0, 0.5, scans[0].shape)
         scans[-1] = scans[-1] + noise
         
         scans[-1] = np.array(scans[-1])
         scans[-1][scans[1]>10] = 10
 
-        scans = np.stack([scans,times], axis=-1)
-        scans = np.expand_dims(scans, axis=0).astype(np.float32)
+        scans = np.expand_dims(scans, axis=-1).astype(np.float32)
+        scans = np.expand_dims(scans, axis=0)
         
-        self.interpreter.set_tensor(self.input_index, scans)
+        self.interpreter.set_tensor(self.input_index, np.repeat(scans, 2, axis=3))
         
         start_time = time.time()
         self.interpreter.invoke()
