@@ -58,8 +58,8 @@ class Test(BasePlanner):
         scans[-1] = np.array(scans[-1])
         scans[-1][scans[1]>10] = 10
 
-        scans = np.stack([scans,times], axis =-1)
-        scans = np.expand_dims(scans, axis=-1).astype(np.float32)
+        scans = np.stack([scans,times], axis=-1)
+        scans = np.expand_dims(scans, axis=0).astype(np.float32)
         
         self.interpreter.set_tensor(self.input_index, scans)
         
