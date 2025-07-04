@@ -19,7 +19,7 @@ class Test(BasePlanner):
 
         self.temp_scan = []
 
-        self.scans = [[] for i in range(5)]
+        self.scans = [[] for i in range(9)]
 
     def linear_map(self, x, x_min, x_max, y_min, y_max):
         return (x - x_min) / (x_max - x_min) * (y_max - y_min) + y_min
@@ -55,8 +55,8 @@ class Test(BasePlanner):
         self.scans.append(scans)
         if self.scans[0] == []:
             return 0.0, 0.0
-        times = [[i*0.0125]*len(scans[::2]) for i in range(5)]
-        scans = np.stack([self.scans, times], axis=-1)
+        times = [[i*0.0125]*len(scans) for i in range(5)]
+        scans = np.stack([self.scans[::2], times], axis=-1)
         scans = np.expand_dims(scans, axis=0).astype(np.float32)
         self.interpreter.set_tensor(self.input_index, scans)
         
