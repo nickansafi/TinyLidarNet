@@ -19,7 +19,7 @@ class Test(BasePlanner):
 
         self.temp_scan = []
 
-        self.scans = []
+        self.scans = [[] for i in range(5)]
 
     def linear_map(self, x, x_min, x_max, y_min, y_max):
         return (x - x_min) / (x_max - x_min) * (y_max - y_min) + y_min
@@ -43,23 +43,21 @@ class Test(BasePlanner):
 
     
     def plan(self, obs):
-        if len(self.scans) == 0:
-            self.scans = [obs['scan'][::2] for i in range(5)]
-        else:
-            self.scans.pop(0)
-            self.scans.append(obs['scan'][::2])
-        scans = self.scans
+        scans = obs['scan'][::2]
 
-        noise = np.random.normal(0, 0.5, scans[0].shape)
-        scans[-1] = scans[-1] + noise
+        noise = np.random.normal(0, 0.5, scans.shape)
+        scans = scans + noise
         
-        scans[-1] = np.array(scans[-1])
-        scans[-1][scans[1]>10] = 10
+        scans = np.array(scans)
+        scans[scans>10] = 10
 
-        scans = np.expand_dims(scans, axis=-1).astype(np.float32)
-        scans = np.expand_dims(scans, axis=0)
-        
-        self.interpreter.set_tensor(self.input_index, np.repeat(scans, 2, axis=3))
+        self.scans.pop(0)
+        self.scans.append(scans)
+        if self.scans[0] == []:
+            return 0.0, 0.0
+        scans = np.stack([self.scans, [[i*0.0125]*len(scans[::2])] for i in range(5)], axis=-1)
+        scans = np.expand_dims(scans, axis=0).astype(np.float32)
+        self.interpreter.set_tensor(self.input_index, scans)
         
         start_time = time.time()
         self.interpreter.invoke()
