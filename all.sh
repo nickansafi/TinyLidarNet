@@ -1,3 +1,4 @@
 bash ros.sh
 bash start.sh
-bash results.sh
+python3 train2.py
+bash results2.sh
