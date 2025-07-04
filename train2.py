@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from sklearn.utils import shuffle
 import os
 import rosbag
 import time
@@ -9,6 +8,7 @@ import tensorflow as tf
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+from sklearn.utils import shuffle
 
 # Keras model imports
 from tensorflow.keras.layers import (
