@@ -55,7 +55,7 @@ class Test(BasePlanner):
         self.scans.append(scans)
         if self.scans[0] == []:
             return 0.0, 0.0
-        times = [[i*0.0125]*len(scans) for i in range(5)]
+        times = [[i*0.025]*len(scans) for i in range(5)]
         scans = np.stack([self.scans[::2], times], axis=-1)
         scans = np.expand_dims(scans, axis=0).astype(np.float32)
         self.interpreter.set_tensor(self.input_index, scans)
