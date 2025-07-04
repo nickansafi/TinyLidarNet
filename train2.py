@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from sklearn.utils import shuffle
 import os
 import rosbag
 import time
@@ -8,7 +9,6 @@ import tensorflow as tf
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from sklearn.utils import shuffle
 
 # Keras model imports
 from tensorflow.keras.layers import (
@@ -79,7 +79,7 @@ def create_lidar_sequences(lidar_data, servo_data, speed_data, timestamps, seque
         ], axis=2)
 
         X.append(seq)
-        y.append([servo_data[i + sequence_length], speed_data[i + sequence_length]])
+        y.append([servo_data[i + 9], speed_data[i + 9]])
 
     return np.array(X), np.array(y)
 
