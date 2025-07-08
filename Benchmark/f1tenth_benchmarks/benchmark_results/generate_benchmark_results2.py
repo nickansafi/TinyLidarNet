@@ -214,11 +214,6 @@ if __name__ == "__main__":
     # tinylidar_il_mean()
     # tinylidar_il_dropout()
     test()
-    end_to_end_il()
-    end_to_end_il_m()
-    end_to_end_il_l()
-    tinylidar_il()
-    tinylidar_il_m()
     tinylidar_il_l()
 
 
