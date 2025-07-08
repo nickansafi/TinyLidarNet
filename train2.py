@@ -62,9 +62,9 @@ def create_lidar_sequences(lidar_data, servo_data, speed_data, timestamps, seque
     X, y = [], []
     num_ranges = lidar_data.shape[1]
 
-    for i in range(len(lidar_data) - 9):
+    for i in range(len(lidar_data) - sequence_length):
         # stack the raw scans [seq_len x num_ranges]
-        frames = np.stack(lidar_data[i : i + 9 : 2], axis=0)  # (seq_len, num_ranges)
+        frames = np.stack(lidar_data[i : i + sequence_length], axis=0)  # (seq_len, num_ranges)
 
         # compute deltas dt between frames, shape (seq_len, 1)
         dt = np.diff(timestamps[i : i + sequence_length + 1]).reshape(sequence_length, 1)
@@ -79,7 +79,7 @@ def create_lidar_sequences(lidar_data, servo_data, speed_data, timestamps, seque
         ], axis=2)
 
         X.append(seq)
-        y.append([servo_data[i + 9], speed_data[i + 9]])
+        y.append([servo_data[i + sequence_length], speed_data[i + sequence_length]])
 
     return np.array(X), np.array(y)
 
