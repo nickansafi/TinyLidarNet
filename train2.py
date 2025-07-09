@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from sklearn.utils import shuffle
 import os
 import rosbag
 import time
@@ -8,7 +9,9 @@ import tensorflow as tf
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from sklearn.utils import shuffle
+np.random.seed(0)
+tf.random.set_seed(0)
+tf.keras.utils.set_random_seed(0)
 
 # Keras model imports
 from tensorflow.keras.layers import (
@@ -111,9 +114,9 @@ if __name__ == '__main__':
     # --- Parameters ---
     bag_paths = ['./Dataset/out.bag','./Dataset/f2.bag','./Dataset/f4.bag']
     seq_len    = 5
-    batch_size = 64
-    lr         = 5e-5
-    epochs     = 20
+    batch_size = 128
+    lr         = 1e-5
+    epochs     = 30
 
     # --- Load & concatenate all bags ---
     all_lidar, all_servo, all_speed, all_ts = [], [], [], []
