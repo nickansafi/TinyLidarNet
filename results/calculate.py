@@ -1,6 +1,6 @@
 with open("results.txt", "r") as results:
     result = [i.strip().split(" ") for i in results.read().split("\n") if len(i) > 1 and i[0] in map(str, range(10))]
-tests = ["RecurrentLidarNet", "TinyLidarNetL"]
+tests = ["RecurrentLidarNet", "MLP256S", "MLP256M", "MLP256L", "TinyLidarNetS", "TinyLidarNetM", "TinyLidarNetL"]
 tracks = ["GYM", "AUS", "MOS", "SPL"]
 lists = []
 for i in range(len(result)):
