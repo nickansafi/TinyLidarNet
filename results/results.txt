@@ -1,47 +1,275 @@
-0 :: 317 COLLISION: Time: 7.92, Progress: 23.0
-1 :: 1649 LAP COMPLETE: Time: 33.30, Progress: 99.8
-2 :: 2953 LAP COMPLETE: Time: 32.60, Progress: 99.5
-3 :: 4289 LAP COMPLETE: Time: 33.40, Progress: 99.6
-4 :: 5266 COLLISION: Time: 24.42, Progress: 72.7
-5 :: 6574 LAP COMPLETE: Time: 32.70, Progress: 99.5
-6 :: 7895 LAP COMPLETE: Time: 33.02, Progress: 99.6
-7 :: 9226 LAP COMPLETE: Time: 33.27, Progress: 99.5
-8 :: 10540 LAP COMPLETE: Time: 32.85, Progress: 99.5
-9 :: 11845 LAP COMPLETE: Time: 32.62, Progress: 99.5
+Testing on example...
+0 :: 1290 LAP COMPLETE: Time: 32.25, Progress: 99.5
+1 :: 2583 LAP COMPLETE: Time: 32.32, Progress: 99.7
+2 :: 3874 LAP COMPLETE: Time: 32.27, Progress: 99.5
+3 :: 5164 LAP COMPLETE: Time: 32.25, Progress: 99.6
+4 :: 6463 LAP COMPLETE: Time: 32.47, Progress: 99.6
+5 :: 7757 LAP COMPLETE: Time: 32.35, Progress: 99.6
+6 :: 9036 LAP COMPLETE: Time: 31.97, Progress: 99.5
+7 :: 10325 LAP COMPLETE: Time: 32.22, Progress: 99.6
+8 :: 11618 LAP COMPLETE: Time: 32.32, Progress: 99.5
+9 :: 12906 LAP COMPLETE: Time: 32.20, Progress: 99.6
 Testing on MoscowRaceway...
-0 :: 2697 COLLISION: Time: 67.43, Progress: 81.2
-1 :: 2731 COLLISION: Time: 0.85, Progress: 0.5
-2 :: 4419 COLLISION: Time: 42.20, Progress: 45.0
-3 :: 5232 COLLISION: Time: 20.33, Progress: 18.9
-4 :: 5498 COLLISION: Time: 6.65, Progress: 5.8
-5 :: 7589 COLLISION: Time: 52.28, Progress: 34.5
-6 :: 10349 COLLISION: Time: 69.00, Progress: 51.3
-7 :: 10960 COLLISION: Time: 15.28, Progress: 12.6
-8 :: 17305 COLLISION: Time: 158.62, Progress: 63.2
-9 :: 20617 LAP COMPLETE: Time: 82.80, Progress: 99.5
+0 :: 2744 LAP COMPLETE: Time: 68.60, Progress: 99.5
+1 :: 5491 LAP COMPLETE: Time: 68.68, Progress: 99.6
+2 :: 8226 LAP COMPLETE: Time: 68.38, Progress: 99.5
+3 :: 10954 LAP COMPLETE: Time: 68.20, Progress: 99.5
+4 :: 13687 LAP COMPLETE: Time: 68.33, Progress: 99.6
+5 :: 16443 LAP COMPLETE: Time: 68.90, Progress: 99.6
+6 :: 19182 LAP COMPLETE: Time: 68.48, Progress: 99.5
+7 :: 21920 LAP COMPLETE: Time: 68.45, Progress: 99.6
+8 :: 24657 LAP COMPLETE: Time: 68.43, Progress: 99.6
+9 :: 27390 LAP COMPLETE: Time: 68.33, Progress: 99.5
 Testing on Austin...
-0 :: 2189 COLLISION: Time: 54.73, Progress: 49.1
-1 :: 2340 COLLISION: Time: 3.77, Progress: 3.3
-2 :: 3039 COLLISION: Time: 17.48, Progress: 16.5
-3 :: 4094 COLLISION: Time: 26.37, Progress: 20.1
-4 :: 6245 COLLISION: Time: 53.78, Progress: 36.2
-5 :: 6822 COLLISION: Time: 14.43, Progress: 11.0
-6 :: 11558 LAP COMPLETE: Time: 118.40, Progress: 99.5
-7 :: 11846 COLLISION: Time: 7.20, Progress: 1.1
-8 :: 13149 COLLISION: Time: 32.57, Progress: 30.6
-9 :: 13249 COLLISION: Time: 2.50, Progress: 1.9
+0 :: 3577 LAP COMPLETE: Time: 89.42, Progress: 99.5
+1 :: 7176 LAP COMPLETE: Time: 89.97, Progress: 99.5
+2 :: 10760 LAP COMPLETE: Time: 89.60, Progress: 99.6
+3 :: 14346 LAP COMPLETE: Time: 89.65, Progress: 99.6
+4 :: 17947 LAP COMPLETE: Time: 90.02, Progress: 99.5
+5 :: 21526 LAP COMPLETE: Time: 89.47, Progress: 99.6
+6 :: 25101 LAP COMPLETE: Time: 89.37, Progress: 99.5
+7 :: 28689 LAP COMPLETE: Time: 89.70, Progress: 99.6
+8 :: 32282 LAP COMPLETE: Time: 89.82, Progress: 99.6
+9 :: 35865 LAP COMPLETE: Time: 89.57, Progress: 99.5
 Testing on Spielberg...
-0 :: 646 COLLISION: Time: 16.15, Progress: 16.0
+0 :: 2749 LAP COMPLETE: Time: 68.73, Progress: 99.5
+1 :: 5506 LAP COMPLETE: Time: 68.93, Progress: 99.5
+2 :: 8262 LAP COMPLETE: Time: 68.90, Progress: 99.5
+3 :: 11011 LAP COMPLETE: Time: 68.73, Progress: 99.5
+4 :: 13768 LAP COMPLETE: Time: 68.93, Progress: 99.6
+5 :: 16530 LAP COMPLETE: Time: 69.05, Progress: 99.6
+6 :: 19282 LAP COMPLETE: Time: 68.80, Progress: 99.5
+7 :: 22036 LAP COMPLETE: Time: 68.85, Progress: 99.5
+8 :: 24790 LAP COMPLETE: Time: 68.85, Progress: 99.5
+9 :: 27547 LAP COMPLETE: Time: 68.93, Progress: 99.6
+Vehicle name: TinyLidarNet
+Testing on example...
+0 :: 1125 LAP COMPLETE: Time: 28.12, Progress: 99.5
+1 :: 2257 LAP COMPLETE: Time: 28.30, Progress: 99.8
+2 :: 3347 LAP COMPLETE: Time: 27.25, Progress: 99.6
+3 :: 4432 LAP COMPLETE: Time: 27.12, Progress: 99.6
+4 :: 5582 LAP COMPLETE: Time: 28.75, Progress: 99.7
+5 :: 6703 LAP COMPLETE: Time: 28.02, Progress: 99.5
+6 :: 7783 LAP COMPLETE: Time: 27.00, Progress: 99.5
+7 :: 8881 LAP COMPLETE: Time: 27.45, Progress: 99.6
+8 :: 9981 LAP COMPLETE: Time: 27.50, Progress: 99.5
+9 :: 11078 LAP COMPLETE: Time: 27.42, Progress: 99.6
+Testing on MoscowRaceway...
+0 :: 493 COLLISION: Time: 12.33, Progress: 19.7
+1 :: 755 COLLISION: Time: 6.55, Progress: 9.4
+2 :: 2993 COLLISION: Time: 55.95, Progress: 91.4
+3 :: 3433 COLLISION: Time: 11.00, Progress: 18.4
+4 :: 4812 COLLISION: Time: 34.47, Progress: 57.4
+5 :: 7266 LAP COMPLETE: Time: 61.35, Progress: 99.6
+6 :: 7374 COLLISION: Time: 2.70, Progress: 4.1
+7 :: 8950 COLLISION: Time: 39.40, Progress: 64.1
+8 :: 11433 LAP COMPLETE: Time: 62.08, Progress: 99.6
+9 :: 12749 COLLISION: Time: 32.90, Progress: 55.2
+Testing on Austin...
+0 :: 765 COLLISION: Time: 19.13, Progress: 23.7
+1 :: 2468 COLLISION: Time: 42.58, Progress: 52.3
+2 :: 3879 COLLISION: Time: 35.27, Progress: 43.3
+3 :: 7151 LAP COMPLETE: Time: 81.80, Progress: 99.6
+4 :: 7330 COLLISION: Time: 4.47, Progress: 4.9
+5 :: 8509 COLLISION: Time: 29.47, Progress: 35.9
+6 :: 9872 COLLISION: Time: 34.07, Progress: 41.7
+7 :: 10372 COLLISION: Time: 12.50, Progress: 15.1
+8 :: 10527 COLLISION: Time: 3.87, Progress: 4.4
+9 :: 10801 COLLISION: Time: 6.85, Progress: 7.8
+Testing on Spielberg...
+0 :: 806 COLLISION: Time: 20.15, Progress: 32.9
+1 :: 1075 COLLISION: Time: 6.72, Progress: 10.1
+2 :: 1119 COLLISION: Time: 1.10, Progress: 1.0
+3 :: 3546 LAP COMPLETE: Time: 60.68, Progress: 99.5
+4 :: 5972 LAP COMPLETE: Time: 60.65, Progress: 99.6
+5 :: 8265 COLLISION: Time: 57.33, Progress: 93.8
+6 :: 8701 COLLISION: Time: 10.90, Progress: 17.5
+7 :: 10512 COLLISION: Time: 45.28, Progress: 72.8
+8 :: 10883 COLLISION: Time: 9.28, Progress: 14.6
+9 :: 12931 COLLISION: Time: 51.20, Progress: 83.6
+Vehicle name: EndToEnd
+Testing on example...
+0 :: 1147 LAP COMPLETE: Time: 28.67, Progress: 99.7
+1 :: 2280 LAP COMPLETE: Time: 28.32, Progress: 99.5
+2 :: 3410 LAP COMPLETE: Time: 28.25, Progress: 99.6
+3 :: 4542 LAP COMPLETE: Time: 28.30, Progress: 99.5
+4 :: 5659 LAP COMPLETE: Time: 27.92, Progress: 99.5
+5 :: 6780 LAP COMPLETE: Time: 28.02, Progress: 99.5
+6 :: 6993 COLLISION: Time: 5.32, Progress: 16.9
+7 :: 8141 LAP COMPLETE: Time: 28.70, Progress: 99.5
+8 :: 9009 COLLISION: Time: 21.70, Progress: 77.3
+9 :: 9369 COLLISION: Time: 9.00, Progress: 28.9
+Testing on MoscowRaceway...
+0 :: 258 COLLISION: Time: 6.45, Progress: 9.9
+1 :: 2514 COLLISION: Time: 56.40, Progress: 86.9
+2 :: 4521 COLLISION: Time: 50.18, Progress: 78.2
+3 :: 7099 LAP COMPLETE: Time: 64.45, Progress: 99.5
+4 :: 8143 COLLISION: Time: 26.10, Progress: 42.0
+5 :: 10634 COLLISION: Time: 62.28, Progress: 95.9
+6 :: 13212 LAP COMPLETE: Time: 64.45, Progress: 99.5
 Time limit reached --&gt; Lap not complete but no collision
-1 :: 10647 TIMEOUT: Time: 250.02, Progress: 53.6
-2 :: 12277 COLLISION: Time: 40.75, Progress: 43.1
-3 :: 13913 COLLISION: Time: 40.90, Progress: 37.6
-4 :: 14150 COLLISION: Time: 5.92, Progress: 7.6
-5 :: 14797 COLLISION: Time: 16.18, Progress: 17.1
-6 :: 15682 COLLISION: Time: 22.12, Progress: 22.5
-7 :: 16138 COLLISION: Time: 11.40, Progress: 14.9
-8 :: 16724 COLLISION: Time: 14.65, Progress: 15.7
-9 :: 20423 LAP COMPLETE: Time: 92.47, Progress: 99.6
+7 :: 23213 TIMEOUT: Time: 250.02, Progress: 0.3
+8 :: 25786 LAP COMPLETE: Time: 64.33, Progress: 99.6
+9 :: 26831 COLLISION: Time: 26.12, Progress: 42.3
+Testing on Austin...
+0 :: 469 COLLISION: Time: 11.73, Progress: 13.3
+1 :: 2585 COLLISION: Time: 52.90, Progress: 60.4
+2 :: 2765 COLLISION: Time: 4.50, Progress: 4.7
+3 :: 3924 COLLISION: Time: 28.97, Progress: 33.4
+4 :: 4814 COLLISION: Time: 22.25, Progress: 24.6
+5 :: 6440 COLLISION: Time: 40.65, Progress: 47.2
+6 :: 6572 COLLISION: Time: 3.30, Progress: 3.4
+7 :: 7708 COLLISION: Time: 28.40, Progress: 32.2
+8 :: 8181 COLLISION: Time: 11.83, Progress: 13.3
+9 :: 8643 COLLISION: Time: 11.55, Progress: 12.4
+Testing on Spielberg...
+0 :: 2622 LAP COMPLETE: Time: 65.55, Progress: 99.5
+1 :: 5227 LAP COMPLETE: Time: 65.13, Progress: 99.5
+2 :: 7852 LAP COMPLETE: Time: 65.63, Progress: 99.5
+3 :: 10494 LAP COMPLETE: Time: 66.05, Progress: 99.5
+4 :: 13116 LAP COMPLETE: Time: 65.55, Progress: 99.6
+5 :: 15758 LAP COMPLETE: Time: 66.05, Progress: 99.6
+6 :: 18397 LAP COMPLETE: Time: 65.98, Progress: 99.5
+7 :: 19173 COLLISION: Time: 19.40, Progress: 28.7
+8 :: 20068 COLLISION: Time: 22.37, Progress: 33.9
+9 :: 21797 COLLISION: Time: 43.23, Progress: 65.5
+Vehicle name: EndToEnd
+Testing on example...
+0 :: 120 COLLISION: Time: 3.00, Progress: 9.8
+1 :: 430 COLLISION: Time: 7.75, Progress: 27.8
+2 :: 909 COLLISION: Time: 11.98, Progress: 44.4
+3 :: 1106 COLLISION: Time: 4.92, Progress: 15.7
+4 :: 1744 COLLISION: Time: 15.95, Progress: 55.4
+5 :: 1891 COLLISION: Time: 3.67, Progress: 11.4
+6 :: 2370 COLLISION: Time: 11.98, Progress: 42.8
+7 :: 2795 COLLISION: Time: 10.63, Progress: 36.1
+8 :: 3537 COLLISION: Time: 18.55, Progress: 65.8
+9 :: 4636 LAP COMPLETE: Time: 27.47, Progress: 99.5
+Testing on MoscowRaceway...
+0 :: 229 COLLISION: Time: 5.72, Progress: 9.5
+1 :: 1458 COLLISION: Time: 30.72, Progress: 47.5
+2 :: 3230 COLLISION: Time: 44.30, Progress: 77.7
+3 :: 4205 COLLISION: Time: 24.37, Progress: 43.5
+4 :: 5451 COLLISION: Time: 31.15, Progress: 55.7
+5 :: 6250 COLLISION: Time: 19.98, Progress: 31.1
+6 :: 8161 COLLISION: Time: 47.78, Progress: 81.1
+7 :: 8336 COLLISION: Time: 4.37, Progress: 0.5
+8 :: 10775 LAP COMPLETE: Time: 60.98, Progress: 99.6
+9 :: 10852 COLLISION: Time: 1.92, Progress: 2.7
+Testing on Austin...
+0 :: 76 COLLISION: Time: 1.90, Progress: 2.0
+1 :: 395 COLLISION: Time: 7.97, Progress: 9.1
+2 :: 787 COLLISION: Time: 9.80, Progress: 11.4
+3 :: 1479 COLLISION: Time: 17.30, Progress: 21.2
+4 :: 2212 COLLISION: Time: 18.33, Progress: 21.2
+5 :: 2612 COLLISION: Time: 10.00, Progress: 10.9
+6 :: 3207 COLLISION: Time: 14.88, Progress: 17.8
+7 :: 3288 COLLISION: Time: 2.02, Progress: 2.2
+8 :: 3899 COLLISION: Time: 15.28, Progress: 18.0
+9 :: 4956 COLLISION: Time: 26.42, Progress: 31.5
+Testing on Spielberg...
+0 :: 2331 LAP COMPLETE: Time: 58.28, Progress: 99.5
+1 :: 4671 LAP COMPLETE: Time: 58.50, Progress: 99.5
+2 :: 6627 COLLISION: Time: 48.90, Progress: 81.8
+3 :: 6985 COLLISION: Time: 8.95, Progress: 13.3
+4 :: 8608 COLLISION: Time: 40.58, Progress: 69.1
+5 :: 8906 COLLISION: Time: 7.45, Progress: 12.6
+6 :: 10346 COLLISION: Time: 36.00, Progress: 59.7
+7 :: 11542 COLLISION: Time: 29.90, Progress: 50.9
+8 :: 13873 LAP COMPLETE: Time: 58.28, Progress: 99.5
+9 :: 16228 LAP COMPLETE: Time: 58.88, Progress: 99.6
+Vehicle name: EndToEnd
+benchmark_tiny_il
+Testing on example...
+0 :: 1076 LAP COMPLETE: Time: 26.90, Progress: 99.7
+1 :: 2150 LAP COMPLETE: Time: 26.85, Progress: 99.6
+2 :: 3228 LAP COMPLETE: Time: 26.95, Progress: 99.6
+3 :: 4303 LAP COMPLETE: Time: 26.87, Progress: 99.6
+4 :: 5380 LAP COMPLETE: Time: 26.92, Progress: 99.5
+5 :: 6459 LAP COMPLETE: Time: 26.97, Progress: 99.6
+6 :: 7538 LAP COMPLETE: Time: 26.97, Progress: 99.6
+7 :: 8614 LAP COMPLETE: Time: 26.90, Progress: 99.5
+8 :: 9690 LAP COMPLETE: Time: 26.90, Progress: 99.6
+9 :: 10766 LAP COMPLETE: Time: 26.90, Progress: 99.7
+Testing on MoscowRaceway...
+0 :: 2476 LAP COMPLETE: Time: 61.90, Progress: 99.5
+1 :: 4950 LAP COMPLETE: Time: 61.85, Progress: 99.6
+2 :: 7419 LAP COMPLETE: Time: 61.73, Progress: 99.5
+3 :: 9894 LAP COMPLETE: Time: 61.88, Progress: 99.5
+4 :: 12367 LAP COMPLETE: Time: 61.83, Progress: 99.6
+5 :: 14848 LAP COMPLETE: Time: 62.03, Progress: 99.6
+6 :: 17313 LAP COMPLETE: Time: 61.63, Progress: 99.5
+7 :: 19783 LAP COMPLETE: Time: 61.75, Progress: 99.6
+8 :: 22258 LAP COMPLETE: Time: 61.88, Progress: 99.6
+9 :: 24735 LAP COMPLETE: Time: 61.93, Progress: 99.5
+Testing on Austin...
+0 :: 3339 LAP COMPLETE: Time: 83.47, Progress: 99.5
+1 :: 6675 LAP COMPLETE: Time: 83.40, Progress: 99.5
+2 :: 10013 LAP COMPLETE: Time: 83.45, Progress: 99.6
+3 :: 13343 LAP COMPLETE: Time: 83.25, Progress: 99.6
+4 :: 16671 LAP COMPLETE: Time: 83.20, Progress: 99.5
+5 :: 20003 LAP COMPLETE: Time: 83.30, Progress: 99.6
+6 :: 23338 LAP COMPLETE: Time: 83.37, Progress: 99.5
+7 :: 26678 LAP COMPLETE: Time: 83.50, Progress: 99.6
+8 :: 30015 LAP COMPLETE: Time: 83.42, Progress: 99.6
+9 :: 33349 LAP COMPLETE: Time: 83.35, Progress: 99.5
+Testing on Spielberg...
+0 :: 2572 LAP COMPLETE: Time: 64.30, Progress: 99.5
+1 :: 5136 LAP COMPLETE: Time: 64.10, Progress: 99.5
+2 :: 7698 LAP COMPLETE: Time: 64.05, Progress: 99.5
+3 :: 10268 LAP COMPLETE: Time: 64.25, Progress: 99.5
+4 :: 12831 LAP COMPLETE: Time: 64.08, Progress: 99.6
+5 :: 15401 LAP COMPLETE: Time: 64.25, Progress: 99.6
+6 :: 17964 LAP COMPLETE: Time: 64.08, Progress: 99.5
+7 :: 20530 LAP COMPLETE: Time: 64.15, Progress: 99.5
+8 :: 23095 LAP COMPLETE: Time: 64.13, Progress: 99.5
+9 :: 25653 LAP COMPLETE: Time: 63.95, Progress: 99.6
+Vehicle name: TinyLidarNet
+benchmark_tiny_il_m
+Testing on example...
+0 :: 1037 LAP COMPLETE: Time: 25.92, Progress: 99.7
+1 :: 2068 LAP COMPLETE: Time: 25.77, Progress: 99.5
+2 :: 3103 LAP COMPLETE: Time: 25.87, Progress: 99.6
+3 :: 4130 LAP COMPLETE: Time: 25.67, Progress: 99.5
+4 :: 5162 LAP COMPLETE: Time: 25.80, Progress: 99.5
+5 :: 6195 LAP COMPLETE: Time: 25.82, Progress: 99.6
+6 :: 7228 LAP COMPLETE: Time: 25.82, Progress: 99.6
+7 :: 8260 LAP COMPLETE: Time: 25.80, Progress: 99.5
+8 :: 9294 LAP COMPLETE: Time: 25.85, Progress: 99.6
+9 :: 10333 LAP COMPLETE: Time: 25.97, Progress: 99.7
+Testing on MoscowRaceway...
+0 :: 2377 LAP COMPLETE: Time: 59.43, Progress: 99.5
+1 :: 4755 LAP COMPLETE: Time: 59.45, Progress: 99.6
+2 :: 7134 LAP COMPLETE: Time: 59.48, Progress: 99.5
+3 :: 9517 LAP COMPLETE: Time: 59.58, Progress: 99.5
+4 :: 11900 LAP COMPLETE: Time: 59.58, Progress: 99.6
+5 :: 14286 LAP COMPLETE: Time: 59.65, Progress: 99.6
+6 :: 16665 LAP COMPLETE: Time: 59.48, Progress: 99.5
+7 :: 19039 LAP COMPLETE: Time: 59.35, Progress: 99.6
+8 :: 21422 LAP COMPLETE: Time: 59.58, Progress: 99.6
+9 :: 23801 LAP COMPLETE: Time: 59.48, Progress: 99.5
+Testing on Austin...
+0 :: 3195 LAP COMPLETE: Time: 79.87, Progress: 99.5
+1 :: 6397 LAP COMPLETE: Time: 80.05, Progress: 99.5
+2 :: 9591 LAP COMPLETE: Time: 79.85, Progress: 99.6
+3 :: 12790 LAP COMPLETE: Time: 79.97, Progress: 99.6
+4 :: 15985 LAP COMPLETE: Time: 79.87, Progress: 99.5
+5 :: 19184 LAP COMPLETE: Time: 79.97, Progress: 99.6
+6 :: 22381 LAP COMPLETE: Time: 79.92, Progress: 99.5
+7 :: 25587 LAP COMPLETE: Time: 80.15, Progress: 99.6
+8 :: 28795 LAP COMPLETE: Time: 80.20, Progress: 99.6
+9 :: 31996 LAP COMPLETE: Time: 80.02, Progress: 99.5
+Testing on Spielberg...
+0 :: 2464 LAP COMPLETE: Time: 61.60, Progress: 99.5
+1 :: 4931 LAP COMPLETE: Time: 61.68, Progress: 99.5
+2 :: 7390 LAP COMPLETE: Time: 61.48, Progress: 99.5
+3 :: 9845 LAP COMPLETE: Time: 61.38, Progress: 99.5
+4 :: 12298 LAP COMPLETE: Time: 61.33, Progress: 99.6
+5 :: 14765 LAP COMPLETE: Time: 61.68, Progress: 99.6
+6 :: 17222 LAP COMPLETE: Time: 61.43, Progress: 99.5
+7 :: 19681 LAP COMPLETE: Time: 61.48, Progress: 99.5
+8 :: 22142 LAP COMPLETE: Time: 61.53, Progress: 99.5
+9 :: 24600 LAP COMPLETE: Time: 61.45, Progress: 99.6
 Vehicle name: TinyLidarNet
 benchmark_tiny_il_l
 Testing on example...
