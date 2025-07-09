@@ -30,10 +30,8 @@ for i in range(len(times)+len(accuracies)):
         results.append(accuracies[accuraciescounter])
         accuraciescounter += 1
 for i in range(len(times)+len(accuracies)):
-    if i == 0:
-        allresults+="\n\nRecurrentLidarNet\t"
-    if i == 8:
-        allresults += "\n\nTinyLidarNetL\t\t"
+    if i % 8 == 0:
+        allresults+="\n\n"+tests[i//8]+"\t"*(3-len(tests[i//8])//8)
     allresults += str(results[i])[0:5]+"\t"
 with open("recurrentlidarnetresults.txt", "w") as results:
     results.write(allresults)
