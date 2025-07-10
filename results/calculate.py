@@ -14,11 +14,11 @@ accuracies = []
 times = []
 for i in range(len(lists)):
     if len(lists[i][1]) == 0:
-        times.append(float('nan'))
+        times.append("N/A")
     else:
         times.append(sum(lists[i][1])/len(lists[i][1]))
     accuracies.append(sum(lists[i][0])/len(lists[i][0]))
-allresults = "\t\t\tTime\t\t\t\tAccuracy\nModel\t\t\tGYM\tMOS\tAUS\tSPL\tGYM\tMOS\tAUS\tSPL"
+allresults = "\t\t\tAverage Lap Time (s)\t\tAverage Progress (%)\nModel\t\t\tGYM\tMOS\tAUS\tSPL\tGYM\tMOS\tAUS\tSPL"
 results = []
 timescounter = 0
 accuraciescounter = 0
